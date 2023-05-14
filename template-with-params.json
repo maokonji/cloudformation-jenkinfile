@@ -12,7 +12,7 @@
     "S3Bucketone": {
       "Type": "AWS::S3::Bucket",
       "Properties": {
-        "BucketName": null
+        "BucketName": {"Ref": "entername"}
       }
     }
   },
