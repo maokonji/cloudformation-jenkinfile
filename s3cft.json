@@ -3,11 +3,22 @@
   "Resources": {
     "S3Bucket": {
       "Type": "AWS::S3::Bucket"
+    },
+    "S3Bucketone": {
+      "Type": "AWS::S3::Bucket"
     }
   },
   "Outputs": {
     "BucketName": {
-      "Value": {"Ref": "S3Bucket"},
+      "Value": {
+        "Ref": "S3Bucket"
+      },
+      "Description": "Name of the sample Amazon S3 bucket."
+    },
+    "BucketNameOne": {
+      "Value": {
+        "Ref": "S3Bucketone"
+      },
       "Description": "Name of the sample Amazon S3 bucket."
     }
   }
