@@ -15,7 +15,7 @@
       },
       "Description": "Name of the sample Amazon S3 bucket."
     },
-    "BucketNameOne": {
+    "BucketNameOnes": {
       "Value": {
         "Ref": "S3Bucketone"
       },
