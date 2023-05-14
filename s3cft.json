@@ -4,7 +4,7 @@
     "S3Bucket": {
       "Type": "AWS::S3::Bucket"
     },
-    "S3Bucketones": {
+    "S3Bucketone": {
       "Type": "AWS::S3::Bucket"
     }
   },
@@ -15,7 +15,7 @@
       },
       "Description": "Name of the sample Amazon S3 bucket."
     },
-    "BucketNameOnes": {
+    "BucketNameOne": {
       "Value": {
         "Ref": "S3Bucketone"
       },
